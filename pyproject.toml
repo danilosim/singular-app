@@ -1,0 +1,21 @@
+[project]
+name = "singular"
+version = "0.1.0"
+description = "Weather Data Scraping Exercise"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+    "fastapi>=0.115.6",
+    "httpx>=0.28.1",
+    "isort>=5.13.2",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.1",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.3",
+    "requests-mock>=1.12.1",
+    "ruff>=0.8.5",
+    "uvicorn>=0.34.0",
+]
